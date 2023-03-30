@@ -7,11 +7,17 @@
     <link rel="stylesheet" href="../style/style.css">
     <title>Calculator Pink</title>
 </head>
-<body class="body">
-    <span class="color"></span>
+<body class="body" id="body">
+    <span class="color">
+        <div class="btnManWoman">
+            <button class="btnMan" id="btnMan"><img class="btnManImg" src="../../public/hombre.png" alt=""></button>
+            <button class="btnWoman" id="btnWoman"><img class="btnWomanImg" src="../../public/mujer.png" alt="woman"></button>
+        </div>
+    </span>
     <div class="contCalculator">
-        <div class="contNumber"></div>
-        <div class="contKeys">
+        <div class="contNumber" id="contNumber"></div>
+        <div class="contKeys" id="contKeys">
+            <button class="buttonNan" id="buttonNan"></button>
             <button class="button0" id="button0">0</button>
             <button class="button1" id="button1">1</button>
             <button class="button2" id="button2">2</button>
@@ -33,4 +39,6 @@
         </div>
     </div>
 </body>
+<script src="../ts/selectors.ts"></script>
+<script src="../ts/btnMode.ts"></script>
 </html>

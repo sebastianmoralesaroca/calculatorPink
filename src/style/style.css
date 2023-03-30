@@ -4,8 +4,36 @@
   text-decoration: none;
 }
 
+.btnManWoman {
+  position: absolute;
+  margin: 30px 0px 0px 20px;
+}
+.btnManWoman .btnMan {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #2e2e2e;
+}
+.btnManWoman .btnMan .btnManImg {
+  width: 35px;
+  height: 35px;
+}
+.btnManWoman .btnWoman {
+  width: 45px;
+  height: 45px;
+  margin-left: -5px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #b800a2;
+}
+.btnManWoman .btnWoman .btnWomanImg {
+  width: 35px;
+  height: 35px;
+}
+
 .body {
-  background-color: gold;
+  background-color: #deed00;
 }
 .body .color {
   display: block;
@@ -13,7 +41,14 @@
   background-color: whitesmoke;
 }
 .body .contCalculator .contNumber {
-  height: 200px;
+  display: block;
+  height: 130px;
+  background-color: #2e2e2e;
+  width: 350px;
+  margin: auto;
+  margin-top: -150px;
+  border: none;
+  border-radius: 15px 15px 0px 0px;
 }
 .body .contCalculator .contKeys {
   display: -ms-grid;
@@ -22,6 +57,11 @@
   grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: (1fr)[5];
   grid-template-rows: repeat(5, 1fr);
+  margin: auto;
+  width: 350px;
+  background-color: #2e2e2e;
+  border: none;
+  border-radius: 0px 0px 15px 15px;
 }
 .body .contCalculator .contKeys > *:nth-child(1) {
   -ms-grid-row: 1;
@@ -103,101 +143,227 @@
   -ms-grid-row: 5;
   -ms-grid-column: 4;
 }
+.body .contCalculator .contKeys .buttonNan {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 5;
+  grid-row: 5;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
+  border-radius: 0px 0px 0px 15px;
+}
 .body .contCalculator .contKeys .button0 {
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 5;
   grid-row: 5;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .button1 {
   -ms-grid-column: 1;
   grid-column: 1;
-  -ms-grid-row: 2;
-  grid-row: 2;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .button2 {
   -ms-grid-column: 2;
   grid-column: 2;
-  -ms-grid-row: 2;
-  grid-row: 2;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .button3 {
   -ms-grid-column: 3;
   grid-column: 3;
-  -ms-grid-row: 2;
-  grid-row: 2;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .button4 {
   -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-row: 3;
   grid-row: 3;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .button5 {
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 3;
   grid-row: 3;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .button6 {
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 3;
   grid-row: 3;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .button7 {
   -ms-grid-column: 1;
   grid-column: 1;
-  -ms-grid-row: 4;
-  grid-row: 4;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .button8 {
   -ms-grid-column: 2;
   grid-column: 2;
-  -ms-grid-row: 4;
-  grid-row: 4;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .button9 {
   -ms-grid-column: 3;
   grid-column: 3;
-  -ms-grid-row: 4;
-  grid-row: 4;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .buttonMas {
   -ms-grid-column: 4;
   grid-column: 4;
   -ms-grid-row: 4;
   grid-row: 4;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .buttonMenos {
   -ms-grid-column: 4;
   grid-column: 4;
   -ms-grid-row: 3;
   grid-row: 3;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .buttonMult {
   -ms-grid-column: 4;
   grid-column: 4;
   -ms-grid-row: 2;
   grid-row: 2;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .buttonDiv {
   -ms-grid-column: 4;
   grid-column: 4;
   -ms-grid-row: 1;
   grid-row: 1;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .buttonPorc {
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 1;
   grid-row: 1;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .buttonPunt {
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 5;
   grid-row: 5;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .buttonReset {
   -ms-grid-column: 1;
@@ -205,10 +371,25 @@
   grid-column: 1/3;
   -ms-grid-row: 1;
   grid-row: 1;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
 }
 .body .contCalculator .contKeys .buttonTotal {
   -ms-grid-column: 4;
   grid-column: 4;
   -ms-grid-row: 5;
   grid-row: 5;
+  height: 70px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: #e7e7e7;
+  background: transparent;
+  border-radius: 0px 0px 15px 0px;
 }
