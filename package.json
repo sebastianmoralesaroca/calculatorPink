@@ -1,0 +1,22 @@
+{
+  "name": "calculatorpink",
+  "version": "1.0.0",
+  "description": "Calculator color Pink for Woman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianmoralesaroca/calculatorPink.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianmoralesaroca/calculatorPink/issues"
+  },
+  "homepage": "https://github.com/sebastianmoralesaroca/calculatorPink#readme",
+  "dependencies": {
+    "sass": "^1.60.0"
+  }
+}
