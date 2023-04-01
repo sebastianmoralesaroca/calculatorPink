@@ -49,6 +49,12 @@
   margin-top: -150px;
   border: none;
   border-radius: 15px 15px 0px 0px;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: 600;
+  color: #e7e7e7;
+  text-align: center;
+  padding-top: 50px;
 }
 .body .contCalculator .contKeys {
   display: -ms-grid;
@@ -58,6 +64,7 @@
   -ms-grid-rows: (1fr)[5];
   grid-template-rows: repeat(5, 1fr);
   margin: auto;
+  margin-top: -50px;
   width: 350px;
   background-color: #2e2e2e;
   border: none;
@@ -339,7 +346,7 @@
   color: #e7e7e7;
   background: transparent;
 }
-.body .contCalculator .contKeys .buttonPorc {
+.body .contCalculator .contKeys .buttonDelete {
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 1;
